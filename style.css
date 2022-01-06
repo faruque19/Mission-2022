@@ -1,0 +1,415 @@
+/* Header Section */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+.flexible-content {
+    display: flex;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.textarea {
+    width: 50%;
+}
+
+.photoarea {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+.flexible-content {
+    display: flex;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.textarea {
+    width: 50%;
+    margin-top: 113px;
+}
+
+.photoarea {
+    width: 50%;
+    text-align: right;
+}
+
+.photoarea img {
+    max-width: 75%;
+}
+
+.textarea h1 {
+    font-family: 'Merriweather';
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 800;
+    word-spacing: 8px;
+    border-radius: 5px;
+    line-height: 60px;
+    letter-spacing: .4px;
+}
+
+.textarea p {
+    font-family: 'Poppins';
+    letter-spacing: .1px;
+    word-spacing: .6px;
+    color: dimgray;
+}
+
+button#Explorebtn {
+    border: none;
+    padding: 11px 16px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background: #ff5656;
+}
+
+button#Explorebtn a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 15px;
+    word-spacing: .5px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+p#do-scroll {
+    font-size: 15px;
+}
+
+.textarea h1 span {
+    color: #ff9f00;
+}
+
+.textarea h1::before {
+    content: "";
+    background: #ff5656;
+    border: 3px solid #ff5656;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.textarea h1 span::before {
+    content: "";
+    background: #ff5656;
+    border: 3px solid #ff5656;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+
+button#Explorebtn:hover {
+    cursor: pointer;
+    background: rgb(201 67 67);
+    transition: .3s;
+}
+
+header#header {
+    overflow: hidden;
+}
+
+/* My Mission Section */
+section#my-mission {
+    overflow: hidden;
+}
+
+.head-mymission {
+    text-align: center;
+}
+
+.head-mymission h1 {
+    font-family: 'Poppins';
+    font-size: 39px;
+    letter-spacing: .3px;
+    word-spacing: 3px;
+    color: #13103A;
+}
+
+.head-mymission h1 span {
+    color: #ff9f00;
+}
+
+.singlebox {
+    margin: 10px;
+    width: 350px;
+    padding: 25px;
+    height: 341px;
+    border-radius: 14px;
+}
+
+.singlebox img {
+    max-width: 43%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.singlebox h4 {
+    font-family: 'Poppins';
+    letter-spacing: .5px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.singlebox p {
+    font-family: 'Poppins';
+    font-size: 15px;
+    letter-spacing: .1px;
+    word-spacing: 0.4px;
+}
+
+div#mission {
+    background: #EDF5F6;
+}
+
+div#vission {
+    background: #FFEEEE;
+}
+
+div#goals {
+    background: #FFF4D6;
+}
+
+/* Mid-Banner Section */
+.limit-image {
+    width: 40%;
+}
+
+.limit-text {
+    width: 60%;
+    margin-top: 24px;
+}
+
+.limit-image img {
+    max-width: 90%;
+}
+
+.limit-text h1 {
+    font-family: 'Poppins';
+    font-size: 35px;
+    letter-spacing: .4px;
+    color: #333333;
+}
+
+.limit-text p {
+    font-family: 'Poppins';
+    letter-spacing: .1px;
+    word-spacing: .6px;
+    margin-bottom: 27px;
+    margin-top: -12px;
+    color: dimgray;
+}
+
+button#read-document-btn {
+    background: #ff5656;
+    border: none;
+    padding: 11px 16px;
+    border-radius: 5px;
+}
+
+button#read-document-btn a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 15px;
+    letter-spacing: .1px;
+    word-spacing: .6px;
+    font-weight: 500;
+}
+
+button#read-document-btn:hover {
+    cursor: pointer;
+    background: rgb(201 67 67);
+    transition: .3s;
+}
+
+#develope-without-limit {
+    background-image: url("images/shapes/shape-8.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+    background-position-y: 229px;
+    background-position-x: 93px;
+}
+
+/* Global Community Section */
+.text-global {
+    width: 50%;
+}
+
+.about-global-image {
+    width: 50%;
+}
+
+.about-global-image img {
+    width: 100%;
+}
+
+div#global p {
+    width: 592px;
+}
+
+div#global h1 {
+    text-transform: capitalize;
+}
+
+div#globa-image {
+    width: 38%;
+}
+
+div#global {
+    margin-top: 10px;
+}
+
+#gobal-community {
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 205px;
+    background-position-y: 243px;
+    background-position-x: 90%;
+}
+
+
+/* About Me Extra Section */
+
+.about-image {
+    width: 50%;
+    margin-top: -22px;
+}
+
+.about-details {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.about-image img {
+    max-width: 70%;
+}
+
+.head-about {
+    text-align: center;
+}
+
+.head-about h1 {
+    color: #13103A;
+    font-family: 'Poppins';
+    letter-spacing: .3px;
+    word-spacing: 3px;
+    font-size: 39px;
+}
+
+.head-about h1 span {
+    color: #ff9f00;
+}
+
+.head-about h1::before {
+    content: "";
+    background: #ff9f00;
+    border: 3px solid #ff9f00;
+    display: block;
+    width: 192px;
+    margin-left: 451px;
+    transform: translateY(58px);
+    border-radius: 5px;
+}
+
+.about-details small {
+    font-size: 15px;
+    font-family: 'Poppins';
+}
+
+.about-details h1 {
+    font-family: system-ui;
+    font-weight: 800;
+    font-size: 38px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    margin-top: 6px;
+}
+
+.about-details h1 span {
+    color: #ff9f00;
+}
+
+.about-details p {
+    font-family: 'Poppins';
+    color: dimgray;
+    font-size: 15px;
+    letter-spacing: .1px;
+    word-spacing: .6px;
+}
+
+.about-details h5 {
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    margin-top: -30px;
+    letter-spacing: .3px;
+    word-spacing: 3px;
+    font-weight: 500;
+}
+
+button#resume {
+    background: #ff5656;
+    padding: 11px 16px;
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+button#resume:hover {
+    background: rgb(201 67 67);
+    cursor: pointer;
+}
+
+button#resume a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+
+/* Footer Section */
+footer#footer {
+    background: #0B0D17;
+    height: 175px;
+}
+
+.footer-text {
+    text-align: center;
+    color: white;
+    padding-top: 26px;
+}
+
+.footer-text h1 {
+    font-family: Lobster;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.footer-text h1 span {
+    color: #ff5656;
+}
+
+.footer-text small {
+    font-family: 'Poppins';
+    font-size: 11px;
+    letter-spacing: .1px;
+    word-spacing: .5px;
+}
